@@ -1,0 +1,44 @@
+{
+    "main": [
+        {
+            "title": "Название статьи 1",
+            "URL": "https://product.atlassian.net/wiki/spaces/test/pages/123456789"
+        }
+    ],
+    "users": [
+        {
+            "title": "Название статьи 2",
+            "URL": "https://product.atlassian.net/wiki/spaces/test/pages/123456789"
+        }
+    ],
+    "dictionaries": [
+        {
+            "title": "Название статьи 3",
+            "URL": "https://product.atlassian.net/wiki/spaces/test/pages/123456789"
+        },
+        {
+            "title": "Название статьи 4",
+            "URL": "https://product.atlassian.net/wiki/spaces/test/pages/123456789"
+        }
+    ],
+    "analytics": [
+        {
+            "title": "Название статьи 5",
+            "URL": "https://product.atlassian.net/wiki/spaces/test/pages/123456789"
+        }
+    ],
+    "notifications": [
+        {
+            "title": "Название статьи 6",
+            "URL": "https://product.atlassian.net/wiki/spaces/test/pages/123456789"
+        },
+        {
+            "title": "Название статьи 7",
+            "URL": "https://product.atlassian.net/wiki/spaces/test/pages/123456789"
+        },
+        {
+            "title": "Название статьи 8",
+            "URL": "https://product.atlassian.net/wiki/spaces/test/pages/123456789"
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300" rel="stylesheet" type="text/css">
+
+    <title>Product admin panel docs</title>
+    <style type="text/css">
+        body {
+            max-width: 400px;
+            min-width: 250px;
+            width: max-content;
+            max-height: 1000px;
+            overflow: hidden;
+            font-size: 85%;
+            padding: 0px 5px 5px 5px;
+        }
+
+        * {
+            font-family: 'Open Sans';
+        }
+
+        .linkElement {
+            display: block;
+            width: max-content;
+            margin: 0px 0 7px 0px;
+            word-break: break-all;
+        }
+
+        a {
+            color: #0060B6;
+            text-decoration: none;
+            text-decoration: none !important;
+        }
+
+        a:hover {
+            color: #00A0C6;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .imgHarold {
+            margin: 10px;
+            width: 30px;
+            place-self: center;
+        }
+
+        #errorText {
+            place-self: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main" style="display: none;">
+        <h3>Статьи про этот раздел:</h3>
+        <div id="links">
+        </div>
+    </div>
+    <div id="preloader"></div>
+    <div id="errorContent" style="display: none;">
+        <span id="errorText"></span>
+        <img src="img/harold.png" class="imgHarold" />
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
